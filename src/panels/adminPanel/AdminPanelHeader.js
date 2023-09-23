@@ -8,6 +8,7 @@ import {
 } from "@vkontakte/vkui";
 
 const AdminPanelHeader = ({ go, tab, activeTab }) => {
+  
   return (
     <>
       <PanelHeader
@@ -26,14 +27,7 @@ const AdminPanelHeader = ({ go, tab, activeTab }) => {
           >
             Изменение ссылки на группу
           </TabsItem>
-          {/* <TabsItem
-            onClick={() => {
-              tab("woman");
-            }}
-            selected={activeTab === "woman"}
-          >
-            Группа для женщин
-          </TabsItem> */}
+     
         </Tabs>
       </FixedLayout>
     </>

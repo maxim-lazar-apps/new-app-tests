@@ -15,11 +15,11 @@ const Home = ({ id, go, getRandomImg, setIMGresult, setActivePanel }) => {
     <Panel id={id}>
       <PanelHeader>Узнай какой ты хряк</PanelHeader>
       <Group>
-        <FormItem top="Вы любите сало?">
+        <FormItem top="Какой вы человек?">
           <NativeSelect>
-            <option value="yes">Не выбрано</option>
-            <option value="yes">Да</option>
-            <option value="no">Нет</option>
+            <option value="yes">Экстраверт</option>
+            <option value="yes">Интроверт</option>
+            <option value="no">Амбиверт</option>
           </NativeSelect>
         </FormItem>
         <FormItem top="Вы имеете избыточный вес?">
@@ -29,14 +29,14 @@ const Home = ({ id, go, getRandomImg, setIMGresult, setActivePanel }) => {
             <option value="no">Нет</option>
           </NativeSelect>
         </FormItem>
-        <FormItem top="Вы любите Украину?">
+        <FormItem top="Вы считаете себя чувствительной натурой?">
           <NativeSelect>
             <option value="yes">Не выбрано</option>
             <option value="yes">Да</option>
             <option value="no">Нет</option>
           </NativeSelect>
         </FormItem>
-        <FormItem top="Вы считаете себя чувствительной натурой?">
+        <FormItem top="Вы любите купаться в грязи?">
           <NativeSelect>
             <option value="yes">Не выбрано</option>
             <option value="yes">Да</option>
